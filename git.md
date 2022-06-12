@@ -445,9 +445,13 @@ $ git merge --allow related histories [远端名]/[分支]
 
 
 
+ 在本地新创建分支时, 第一次向远程push的时候要执行一下命令,不能简单直接push
+
+```bash
+git push origin ${new_branch_of_remote}
+```
 
 
- 
 
  
 
